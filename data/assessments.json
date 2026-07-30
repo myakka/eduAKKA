@@ -6,7 +6,7 @@
     "nama": "Misi 1",
     "status": "aktif",
     "durasiMenit": 45,
-    "jumlahSoal": 6,
+    "jumlahSoal": 20,
     "jenisSoal": ["pg", "pg_kompleks", "benar_salah", "menjodohkan", "isian_singkat", "uraian"]
   },
   {
