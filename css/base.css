@@ -102,7 +102,7 @@ li { margin-bottom: var(--space-2); }
 }
 
 .app-header__logo {
-  height: 42px;
+  height: 62px;
   width: auto;
   filter: drop-shadow(0 0 10px rgba(0, 212, 255, 0.35));
 }
