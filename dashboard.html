@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<title>Pilih Asesmen - AKKA</title>
+<link rel="icon" type="image/png" href="assets/logo/logo-akka.png" />
+<link rel="stylesheet" href="css/variables.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/components.css" />
+<link rel="stylesheet" href="css/dashboard.css" />
+</head>
+<body>
+<header class="app-header">
+  <div class="app-header__inner">
+    <img src="assets/logo/logo-font-akka.png" alt="Logo AKKA" class="app-header__logo" />
+    <div class="app-header__user">
+      <span class="user-pill" id="userPill">-</span>
+      <button class="btn btn-ghost btn-sm" id="btnKeluar">🚪 Keluar</button>
+    </div>
+  </div>
+</header>
+
+<main class="page">
+  <section class="dashboard-intro">
+    <h1>Halo, <span id="namaSiswa">Siswa</span> 👋</h1>
+    <p>Pilih asesmen yang tersedia untuk <span id="kelasSiswa">kelasmu</span> di bawah ini.</p>
+  </section>
+
+  <section class="assessment-grid" id="assessmentGrid">
+    <!-- Kartu asesmen dirender otomatis oleh dashboard.js -->
+  </section>
+
+  <p class="empty-state" id="emptyState" hidden>Belum ada asesmen untuk kelasmu saat ini.</p>
+</main>
+
+<footer class="app-footer">
+  <p>© <span id="tahunFooter"></span> AKKA - Asesmen Koding dan Kecerdasan Artifisial</p>
+</footer>
+
+<script src="js/app.js"></script>
+<script src="js/dashboard.js"></script>
+</body>
+</html>

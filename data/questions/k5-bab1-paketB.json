@@ -1,0 +1,246 @@
+{
+  "assessmentId": "k5-bab1",
+  "paket": "B",
+  "soal": [
+    {
+      "id": 1,
+      "jenis": "pg",
+      "pertanyaan": "Jika hari ini turun hujan, maka yang akan dilakukan oleh anak-anak di rumah adalah....",
+      "opsi": [
+        "bermain bola di lapangan terbuka",
+        "bermain permainan di dalam ruangan",
+        "bermain di luar tanpa menggunakan payung",
+        "berenang di kolam renang umum"
+      ],
+      "kunci": 1,
+      "bobot": 1
+    },
+    {
+      "id": 2,
+      "jenis": "pg",
+      "pertanyaan": "Cabang ilmu komputer yang berfokus pada pembuatan sistem agar dapat meniru kecerdasan manusia disebut....",
+      "opsi": [
+        "Artificial Intelligence",
+        "Automatic Internet",
+        "Advanced Information",
+        "Auto Install"
+      ],
+      "kunci": 0,
+      "bobot": 1
+    },
+    {
+      "id": 3,
+      "jenis": "pg",
+      "pertanyaan": "Setiap sore, Dimas merapikan meja belajarnya dengan mengelompokkan buku, pensil, dan penggaris pada tempatnya masing-masing. Manfaat berpikir komputasional yang diterapkan Dimas adalah ....",
+      "opsi": [
+        "Membuat suasana kamar menjadi berantakan.",
+        "Membantu menemukan barang dengan lebih cepat dan teratur.",
+        "Menghilangkan semua tugas sekolah.",
+        "Membuat waktu belajar menjadi lebih lama."
+      ],
+      "kunci": 1,
+      "bobot": 1
+    },
+    {
+      "id": 4,
+      "jenis": "pg",
+      "pertanyaan": "Sinta ingin merencanakan acara ulang tahunnya. Sebelum mulai, ia membagi persiapannya menjadi beberapa bagian, yaitu membuat undangan, memesan kue, menyiapkan dekorasi, dan menyusun acara. Pemecahan masalah di atas dilakukan dengan menerapkan metode.... ",
+      "opsi": [
+        "algoritma",
+        "abstraksi",
+        "dekomposisi",
+        "pengenalan pola"
+      ],
+      "kunci": 2,
+      "bobot": 1
+    },
+    {
+      "id": 5,
+      "jenis": "pg",
+      "pertanyaan": "Maya mengamati bahwa setiap hitungan mundur sebelum lomba lari selalu dimulai dari angka tiga, dua, satu, lalu ya. Cara berpikir komputasional yang dilakukan Maya adalah .... ",
+      "opsi": [
+        "algoritma",
+        "abstraksi",
+        "dekomposisi",
+        "pengenalan pola"
+      ],
+      "kunci": 3,
+      "bobot": 1
+    },
+    {
+      "id": 6,
+      "jenis": "pg_kompleks",
+      "pertanyaan": "Manakah di bawah ini yang merupakan contoh penerapan metode dekomposisi dalam kehidupan sehari-hari? (Pilih lebih dari satu jawaban)",
+      "opsi": [
+        "Membagi tugas membersihkan rumah menjadi menyapu, mengepel, dan mencuci piring",
+        "Membuat urutan langkah-langkah mencuci tangan yang benar",
+        "Memecah proyek membuat majalah dinding menjadi bagian penulisan, ilustrasi, dan editor",
+        "Menghafal warna kesukaan seluruh teman sekelas"
+      ],
+      "kunci": [0, 2],
+      "bobot": 2
+    },
+    {
+      "id": 7,
+      "jenis": "pg_kompleks",
+      "pertanyaan": "Pilih pernyataan yang benar mengenai manfaat dari berpikir komputasional! (Pilih dua jawaban)",
+      "opsi": [
+        "Melatih diri untuk menyelesaikan masalah secara logis dan terstruktur",
+        "Membuat semua masalah menjadi jauh lebih rumit dan sulit dipahami",
+        "Membantu memecahkan masalah besar menjadi bagian yang lebih kecil",
+        "Menghilangkan kebutuhan untuk berpikir kreatif"
+      ],
+      "kunci": [0, 2],
+      "bobot": 2
+    },
+    {
+      "id": 8,
+      "jenis": "pg_kompleks",
+      "pertanyaan": "Manakah di bawah ini yang merupakan contoh algoritma atau urutan langkah yang benar dalam kehidupan sehari-hari? (Pilih lebih dari satu jawaban)",
+      "opsi": [
+        "Langkah-langkah menyalakan televisi dengan remote",
+        "Kumpulan nama hewan berkaki empat di dunia",
+        "Urutan langkah memakai sepatu dan kaos kaki",
+        "Daftar tinggi badan seluruh siswa di sekolah"
+      ],
+      "kunci": [0, 2],
+      "bobot": 2
+    },
+    {
+      "id": 9,
+      "jenis": "pg_kompleks",
+      "pertanyaan": "Manakah di bawah ini yang menunjukkan ciri-ciri dari pengenalan pola? (Pilih lebih dari satu jawaban)",
+      "opsi": [
+        "Menemukan kesamaan bentuk pada beberapa daun pohon yang berbeda",
+        "Menuliskan instruksi komputer menggunakan bahasa pemrograman",
+        "Mengetahui keteraturan jadwal pelajaran berdasarkan hari dalam seminggu",
+        "Memotong kertas menjadi bagian-bagian kecil secara acak"
+      ],
+      "kunci": [0, 2],
+      "bobot": 2
+    },
+    {
+      "id": 10,
+      "jenis": "pg_kompleks",
+      "pertanyaan": "Manakah di bawah ini yang merupakan contoh penerapan abstraksi? (Pilih lebih dari satu jawaban)",
+      "opsi": [
+        "Mengabaikan warna gedung saat menggambar denah jalan menuju sekolah",
+        "Menghafalkan seluruh percintaan dalam sebuah buku cerita tebal",
+        "Memilih informasi yang paling penting saja untuk mencatat inti pelajaran",
+        "Menuliskan seluruh kata secara lengkap tanpa ada yang diringkas"
+      ],
+      "kunci": [0, 2],
+      "bobot": 2
+    },
+    {
+      "id": 11,
+      "jenis": "benar_salah",
+      "pertanyaan": "Tina akan membuat secangkir teh manis. Ia merebus air, memasukkan kantong teh ke cangkir, menuang air panas, lalu menambahkan gula dan mengaduknya. Tentukan Benar atau Salah!",
+      "pernyataan": [
+        { "teks": "Tina menyusun langkah-langkah membuat teh secara berurutan", "kunci": "benar" },
+        { "teks": "Kegiatan membuat teh tersebut merupakan contoh penerapan algoritma.", "kunci": "benar" },
+        { "teks": "Urutan langkah membuat teh manis boleh dibolak-balik secara acak.", "kunci": "salah" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 12,
+      "jenis": "benar_salah",
+      "pertanyaan": "Budi mendapat tugas kelompok membuat kerajinan tangan. Ia membagi tugas memotong bahan, mengelem, dan menghias kepada anggota kelompoknya. Tentukan Benar atau Salah!",
+      "pernyataan": [
+        { "teks": "Budi menerapkan metode dekomposisi dalam membagi tugas.", "kunci": "benar" },
+        { "teks": "Membagi tugas kelompok membuat pekerjaan menjadi lebih cepat selesai.", "kunci": "benar" },
+        { "teks": "Semua anggota kelompok harus mengerjakan satu bagian tugas yang persis sama.", "kunci": "salah" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 13,
+      "jenis": "benar_salah",
+      "pertanyaan": "Pernyataan terkait konsep dasar berpikir komputasional dan kecerdasan artifisial. Tentukan Benar atau Salah!",
+      "pernyataan": [
+        { "teks": "Algoritma membantu merancang solusi masalah langkah demi langkah.", "kunci": "benar" },
+        { "teks": "Kecerdasan artifisial dapat belajar dari data dan pengalaman tanpa campur tangan manusia sama sekali sejak awal.", "kunci": "salah" },
+        { "teks": "Komputer memerlukan instruksi atau program agar dapat menjalankan tugas dengan benar.", "kunci": "benar" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 14,
+      "jenis": "benar_salah",
+      "pertanyaan": "Tentukan Benar atau Salah untuk setiap pernyataan berikut mengenai elemen berpikir komputasional:",
+      "pernyataan": [
+        { "teks": "Abstraksi berfokus pada informasi penting dan mengabaikan detail yang tidak diperlukan.", "kunci": "benar" },
+        { "teks": "Pengenalan pola digunakan untuk mencari kesamaan atau keteraturan dari suatu data atau kejadian.", "kunci": "benar" },
+        { "teks": "Dekomposisi adalah cara menyusun instruksi bercabang seperti struktur keputusan.", "kunci": "salah" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 15,
+      "jenis": "benar_salah",
+      "pertanyaan": "Tentukan Benar atau Salah untuk setiap pernyataan berikut mengenai penerapan teknologi dalam kehidupan:",
+      "pernyataan": [
+        { "teks": "Teknologi pengenal wajah di ponsel pintar memanfaatkan kecerdasan artifisial.", "kunci": "benar" },
+        { "teks": "Berpikir komputasional hanya berguna saat menggunakan komputer jinjing.", "kunci": "salah" },
+        { "teks": "Penerapan algoritma dapat mempermudah kita menyelesaikan pekerjaan rumah sehari-hari.", "kunci": "benar" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 16,
+      "jenis": "menjodohkan",
+      "pertanyaan": "Jodohkan istilah berpikir komputasional berikut dengan definisinya yang tepat.",
+      "pasangan": [
+        { "kiri": "Pengenalan pola", "kanan": "Mencari persamaan atau keteraturan dari berbagai hal" },
+        { "kiri": "Abstraksi", "kanan": "Memfokuskan perhatian hanya pada informasi yang penting" },
+        { "kiri": "Algoritma", "kanan": "Menuliskan urutan langkah logis untuk menyelesaikan masalah" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 17,
+      "jenis": "menjodohkan",
+      "pertanyaan": "Pasangkan ilustrasi cerita berikut dengan metode berpikir komputasional yang sesuai.",
+      "pasangan": [
+        { "kiri": "Santi memecah tugas membersihkan halaman menjadi menyapu dan membuang sampah.", "kanan": "Dekomposisi" },
+        { "kiri": "Galih mencatat urutan langkah-langkah mengirim surel (email).", "kanan": "Algoritma" },
+        { "kiri": "Fajar melihat adanya kesamaan urutan warna pada lampu lalu lintas setiap hari.", "kanan": "Pengenalan pola" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 18,
+      "jenis": "menjodohkan",
+      "pertanyaan": "Pasangkan manfaat penerapan konsep berpikir komputasional berikut dengan tepat.",
+      "pasangan": [
+        { "kiri": "Manfaat dekomposisi", "kanan": "Mempermudah penyelesaian masalah besar dengan memecahnya" },
+        { "kiri": "Manfaat algoritma", "kanan": "Menghindari kebingungan karena langkah kerja teratur" },
+        { "kiri": "Manfaat abstraksi", "kanan": "Menyederhanakan masalah dengan membuang detail tidak penting" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 19,
+      "jenis": "menjodohkan",
+      "pertanyaan": "Jodohkan contoh aktivitas sehari-hari dengan konsep berpikir komputasional yang digunakan.",
+      "pasangan": [
+        { "kiri": "Menggambar denah kelas dengan hanya menggambar letak meja utama", "kanan": "Abstraksi" },
+        { "kiri": "Menulis urutan nomor telepon darurat secara berurutan", "kanan": "Algoritma" },
+        { "kiri": "Membagi kelompok piket kebersihan kelas berdasarkan hari", "kanan": "Dekomposisi" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 20,
+      "jenis": "menjodohkan",
+      "pertanyaan": "Pasangkan istilah teknologi dan istilah umum dengan arti atau penjelasannya yang sesuai.",
+      "pasangan": [
+        { "kiri": "Artificial Intelligence", "kanan": "Kecerdasan buatan pada sistem komputer" },
+        { "kiri": "Dekomposisi", "kanan": "Pemecahan masalah menjadi bagian kecil" },
+        { "kiri": "Pengenalan pola", "kanan": "Kemampuan melihat tren atau kesamaan data" }
+      ],
+      "bobot": 3
+    }
+  ]
+}

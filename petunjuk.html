@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<title>Petunjuk Asesmen - AKKA</title>
+<link rel="icon" type="image/png" href="assets/logo/logo-akka.png" />
+<link rel="stylesheet" href="css/variables.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/components.css" />
+<link rel="stylesheet" href="css/petunjuk.css" />
+</head>
+<body>
+<header class="app-header">
+  <div class="app-header__inner">
+    <img src="assets/logo/logo-font-akka.png" alt="Logo AKKA" class="app-header__logo" />
+    <button class="btn btn-ghost btn-sm" id="btnKembali">← Kembali</button>
+  </div>
+</header>
+
+<main class="page page--center">
+  <section class="info-card card">
+    <h1 class="info-card__title" id="namaAsesmen">Nama Asesmen</h1>
+
+    <div class="info-grid">
+      <div class="info-item">
+        <span class="info-item__label">Nama Siswa</span>
+        <strong class="info-item__value" id="infoNama">-</strong>
+      </div>
+      
+      <div class="info-item">
+        <span class="info-item__label">No Absen</span>
+        <span class="info-item__value" id="infoAbsen">-</span>
+      </div>
+
+      <div class="info-item">
+        <span class="info-item__label">Kelas</span>
+        <span class="info-item__value" id="infoKelas">-</span>
+      </div>
+
+      <div class="info-item">
+        <span class="info-item__label">Jumlah Soal</span>
+        <span class="info-item__value" id="infoJumlahSoal">-</span>
+      </div>
+      
+      <div class="info-item">
+        <span class="info-item__label">Jenis Soal</span>
+        <span class="info-item__value" id="infoJenisSoal">-</span>
+      </div>
+
+      <div class="info-item">
+        <span class="info-item__label">Durasi Pengerjaan</span>
+        <span class="info-item__value" id="infoDurasi">-</span>
+      </div>
+    </div>
+
+    <div class="info-card__rules">
+      <h2>Perhatian Sebelum Mengerjakan</h2>
+      <ul>
+        <li>Pastikan koneksi internet stabil selama mengerjakan asesmen.</li>
+        <li>Jawaban tersimpan otomatis setiap kali kamu memilih atau mengisi jawaban.</li>
+        <li>Asesmen akan berjalan dalam mode layar penuh (fullscreen).</li>
+        <li>Jangan berpindah ke tab atau aplikasi lain selama asesmen berlangsung.</li>
+        <li>Kerjakan dengan jujur dan mandiri.</li>
+      </ul>
+    </div>
+
+    <form id="tokenForm" class="token-form">
+      <label for="inputToken">Masukkan Kode Asesmen</label>
+      <input type="text" id="inputToken" class="form-control token-input" placeholder="Masukkan Kode Unik" autocomplete="off" />
+      <span class="form-error" id="errToken"></span>
+      <button type="submit" class="btn btn-primary btn-block" id="btnMulai" disabled>Mulai Asesmen</button>
+    </form>
+  </section>
+</main>
+
+<footer class="app-footer">
+  <p>© <span id="tahunFooter"></span> AKKA - Asesmen Koding dan Kecerdasan Artifisial</p>
+</footer>
+
+<script src="js/app.js"></script>
+<script src="js/token.js"></script>
+<script src="js/petunjuk.js"></script>
+</body>
+</html>

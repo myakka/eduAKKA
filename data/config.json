@@ -1,0 +1,16 @@
+{
+  "namaPlatform": "AKKA",
+  "kepanjangan": "Asesmen Koding dan Kecerdasan Artifisial",
+  "tagline": "Think • Solve • Code",
+  "satuanPendidikan": "MIN 9 Blitar",
+  "appsScriptUrl": "https://script.google.com/macros/s/AKfycbws1H7yVIj7y9vBjXugx3fDndY9yJeHtLtGjREXRi85FM-YDcbxXXI6U3oOUReG9k3P/exec",
+  "bobotDefault": {
+    "pg": 1,
+    "pg_kompleks": 2,
+    "benar_salah": 3,
+    "menjodohkan": 3,
+    "isian_singkat": "manual",
+    "uraian": "manual"
+  },
+  "durasiDefaultMenit": 45
+}

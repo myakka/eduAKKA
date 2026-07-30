@@ -1,0 +1,53 @@
+| assessmentId | paket | id | jenis | pertanyaan | opsiA | opsiB | opsiC | opsiD | kunci | bobot | keterangan |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| k5-bab1 | A | 1 | pg | Pematik:
+Rani ingin membuat robot yang bisa menyikat gigi sendiri. Agar robot tidak bingung, Rani harus memberikan langkah-langkah yang benar dan berurutan.
+
+Pertanyaan:
+Apa yang dimaksud dengan algoritma? | gambar yang menarik di komputer | Urutan langkah-langkah untuk menyelesaikan suatu masalah. | Nama sebuah permainan di komputer. | Kumpulan warna pada layar komputer. | 2 | 1 |
+| k5-bab1 | A | 2 | pg | Pematik:
+Bayu ingin membuat program sederhana. Ia harus menuliskan langkah-langkah secara berurutan agar komputer dapat memahami perintahnya.
+
+Pertanyaan:
+Manakah urutan yang paling benar saat membuat program? | Menjalankan program → Merencanakan → Menulis kode. | Menulis kode → Merencanakan → Menguji. | Merencanakan → Menulis kode → Menguji program. | Menguji → Menulis kode → Merencanakan. | 2 | 1 |
+| k5-bab1 | A | 3 | pg | Pematik:
+Pada permainan, karakter hanya boleh masuk ke kastil jika memiliki kunci. Jika tidak memiliki kunci, karakter harus mencari kunci terlebih dahulu.
+Pertanyaan:
+Konsep coding yang digunakan pada cerita tersebut adalah... | Perulangan (Loop) | Percabangan (If-Else) | Variabel | Debugging | 1 | 1 |
+| k5-bab1 | A | 4 | pg | Lihat potongan algoritma berikut.
+1) Nyalakan komputer.
+2) Buka aplikasi menggambar.
+3) Buat gambar.
+4) Simpan hasil gambar.
+Pertanyaan:
+Langkah manakah yang harus dilakukan terlebih dahulu? | Membuat gambar | Menyimpan gambar. | Menyalakan komputer. | Membuka aplikasi menggambar. | 3 | 1 |
+| k5-bab1 | A | 5 | pg | Pematik:
+Doni ingin robotnya mengangkat lima kotak. Ia tidak ingin menulis perintah "angkat kotak" sebanyak lima kali.
+Pertanyaan:
+Konsep coding yang paling tepat digunakan adalah.... | Percakapan | perulangan (Loop) | variabel | input | 1 | 1 |
+| k5-bab1 | A | 6 | pg |  |  |  |  |  |  | 1 |
+| k5-bab1 | A | 7 | pg |  |  |  |  |  |  | 1 |
+| k5-bab1 | A | 8 | pg |  |  |  |  |  |  | 1 |
+| k5-bab1 | A | 9 | pg |  |  |  |  |  |  | 1 |
+| k5-bab1 | A | 10 | pg |  |  |  |  |  |  | 1 |
+| k5-bab1 | A | 11 | pg_komplek |  |  |  |  |  |  | 2 |
+| k5-bab1 | A | 12 | pg_komplek |  |  |  |  |  |  | 2 |
+| k5-bab1 | A | 13 | pg_komplek |  |  |  |  |  |  | 2 |
+| k5-bab1 | A | 14 | pg_komplek |  |  |  |  |  |  | 2 |
+| k5-bab1 | A | 15 | pg_komplek |  |  |  |  |  |  | 2 |
+| k5-bab1 | A | 16 | benar_salah | Fika ingin membuat segelas jus jeruk. Ia menyiapkan jeruk, air, gula, blender, dan gelas. Setelah semua siap, Siti membuat jus dengan mengikuti langkah-langkah secara berurutan.
+Berdasarkan cerita di atas, tentukan apakah pernyataan berikut Benar atau Salah! | Menyiapkan bahan dan alat terlebih dahulu merupakan contoh dekomposisi. | Benar | Menyusun langkah membuat jus termasuk algoritma. | Benar | Menggunakan blender atau sendok merupakan contoh pengenalan pola. | Salah |
+| k5-bab1 | A | 17 | benar_salah | Setiap malam, Andi menyiapkan tas sekolah. Ia memasukkan buku sesuai jadwal pelajaran, alat tulis, dan botol minum agar tidak ada yang tertinggal.
+memasukkan buku sesuai jadwal pelajaran, alat tulis, dan botol minum agar tidak ada yang tertinggal.
+Berdasarkan cerita di atas, tentukan apakah pernyataan berikut Benar atau Salah! | Memilih buku sesuai jadwal pelajaran merupakan contoh abstraksi. | Benar | Kegiatan menyiapkan tas dilakukan dengan urutan tertentu sehingga termasuk algoritma. | Benar | Membawa semua barang di rumah ke sekolah merupakan contoh abstraksi yang benar. | Salah |
+| k5-bab1 | A | 18 | benar_salah | Beni ingin membuat pesawat kertas yang dapat terbang jauh. Ia mengamati beberapa contoh pesawat kertas, lalu melipat kertas sesuai langkah-langkah yang benar.
+Berdasarkan cerita di atas, tentukan apakah pernyataan berikut Benar atau Salah! | Mengamati bentuk pesawat kertas yang dapat terbang jauh merupakan contoh pengenalan pola. | Benar | Melipat kertas tanpa mengikuti urutan tetap disebut algoritma. | Salah | Memilih bentuk sayap yang paling penting agar pesawat dapat terbang merupakan contoh abstraksi. | Benar |
+| k5-bab1 | A | 19 | benar_salah | Rani akan membersihkan akuarium. Ia mengeluarkan ikan ke wadah sementara, menguras air, membersihkan kaca, mengisi air kembali, lalu memasukkan ikan ke dalam akuarium.
+Berdasarkan cerita di atas, tentukan apakah pernyataan berikut Benar atau Salah! | Membagi pekerjaan menjadi beberapa kegiatan merupakan contoh dekomposisi. | Benar | Mengisi air sebelum membersihkan kaca merupakan urutan yang paling tepat. | Salah | Menyusun langkah membersihkan akuarium merupakan contoh algoritma. | Benar |
+| k5-bab1 | A | 20 | benar_salah | Kelompok siswa akan menanam bunga di halaman sekolah. Mereka menyiapkan pot, tanah, bibit, dan air. Setelah itu mereka menanam dan menyiram tanaman secara teratur.
+Berdasarkan cerita di atas, tentukan apakah pernyataan berikut Benar atau Salah! | Menyiapkan pot, tanah, bibit, dan air merupakan contoh dekomposisi. | Benar | Menyiram tanaman secara teratur merupakan pola kegiatan yang berulang. | Benar | Warna pot merupakan hal yang paling penting agar tanaman tumbuh subur. | Salah |
+| k5-bab1 | A | 21 | Menjodohkan |  |  |  |  |  |  | 3 |
+| k5-bab1 | A | 22 | Menjodohkan |  |  |  |  |  |  | 3 |
+| k5-bab1 | A | 23 | Menjodohkan |  |  |  |  |  |  | 3 |
+| k5-bab1 | A | 24 | Menjodohkan |  |  |  |  |  |  | 3 |
+| k5-bab1 | A | 25 | Menjodohkan |  |  |  |  |  |  | 3 |

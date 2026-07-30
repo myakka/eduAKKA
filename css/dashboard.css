@@ -1,0 +1,91 @@
+/* ==========================================================================
+   AKKA - Halaman Pilih Asesmen (Dashboard)
+   Tema: Menu Game / Mission Select
+   ========================================================================== */
+
+.dashboard-intro { margin-bottom: var(--space-6); }
+.dashboard-intro h1 {
+  font-size: clamp(1.05rem, 4.2vw, var(--fs-xl));
+  line-height: 1.35;
+}
+.dashboard-intro p { color: var(--color-text-muted); }
+
+.assessment-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+}
+
+@media (min-width: 640px) {
+  .assessment-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 720px) {
+  .assessment-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.assessment-card {
+  background: linear-gradient(160deg, rgba(16, 31, 53, 0.95) 0%, rgba(8, 17, 31, 0.95) 100%);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  position: relative;
+  overflow: hidden;
+  transition: transform var(--dur-normal) var(--ease-standard), box-shadow var(--dur-normal), border-color var(--dur-normal);
+}
+
+.assessment-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--gradient-brand);
+  opacity: 0.85;
+}
+
+.assessment-card--active {
+  cursor: pointer;
+  border-color: rgba(0, 212, 255, 0.32);
+}
+.assessment-card--active:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-card), var(--shadow-glow-cyan);
+  border-color: var(--color-cyan-400);
+}
+.assessment-card--active:active { transform: translateY(-1px) scale(0.99); }
+
+.assessment-card--locked {
+  opacity: 0.55;
+  filter: grayscale(0.4);
+}
+.assessment-card--locked::before { background: var(--color-text-muted); opacity: 0.4; }
+
+.assessment-card__icon {
+  width: 46px;
+  height: 46px;
+  border-radius: var(--radius-sm);
+  background: var(--gradient-brand-soft);
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.assessment-card__title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--color-white);
+  font-size: var(--fs-md);
+  letter-spacing: 0.3px;
+}
+
+.assessment-card__meta {
+  font-size: var(--fs-xs);
+  letter-spacing: 0.4px;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+}

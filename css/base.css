@@ -1,0 +1,165 @@
+/* ==========================================================================
+   AKKA - Base Styles
+   Reset ringan + tipografi dasar + layout header/footer/page.
+   Tema Futuristic Sci-Fi Game. Mobile First.
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  font-weight: 500;
+  color: var(--color-text-dark);
+  background: var(--color-bg);
+  background-image:
+    radial-gradient(circle at 15% 0%, rgba(30, 99, 255, 0.16), transparent 45%),
+    radial-gradient(circle at 85% 100%, rgba(124, 58, 237, 0.14), transparent 45%),
+    repeating-linear-gradient(180deg, rgba(0, 212, 255, 0.03) 0px, rgba(0, 212, 255, 0.03) 1px, transparent 1px, transparent 3px);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  margin: 0 0 var(--space-2);
+  color: var(--color-white);
+}
+
+p { margin: 0 0 var(--space-3); color: var(--color-text-muted); }
+
+a { color: var(--color-cyan-400); text-decoration: none; }
+
+button { font-family: var(--font-body); cursor: pointer; }
+
+img { max-width: 100%; display: block; }
+
+ul { padding-left: var(--space-5); color: var(--color-text-muted); }
+li { margin-bottom: var(--space-2); }
+
+/* Fokus keyboard yang jelas untuk aksesibilitas */
+:focus-visible {
+  outline: 3px solid var(--color-cyan-400);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ------------------------- Layout Umum ------------------------- */
+
+.page {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-5) var(--space-4) var(--space-8);
+}
+
+.page--center {
+  min-height: calc(100vh - var(--header-height) - 90px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ------------------------- Header ------------------------- */
+
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: rgba(8, 17, 31, 0.82);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: 0 2px 24px rgba(0, 212, 255, 0.08);
+}
+
+.app-header__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  height: var(--header-height);
+  padding: 0 var(--space-4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-header__logo {
+  height: 42px;
+  width: auto;
+  filter: drop-shadow(0 0 10px rgba(0, 212, 255, 0.35));
+}
+
+.app-header__user {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.user-pill {
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--color-white);
+  background: linear-gradient(160deg, rgba(30,99,255,0.35) 0%, rgba(0,212,255,0.25) 55%, rgba(124,58,237,0.35) 100%);
+  border: 1px solid var(--color-border);
+  white-space: nowrap;
+  padding: 6px 16px;
+  border-radius: var(--radius-full);
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* ------------------------- Footer ------------------------- */
+
+.app-footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-4) var(--space-5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  text-align: center;
+}
+
+.app-footer__logo {
+  height: 28px;
+  width: auto;
+  opacity: 0.85;
+}
+
+.app-footer p {
+  font-size: var(--fs-xs);
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+/* ------------------------- Empty state ------------------------- */
+
+.empty-state {
+  text-align: center;
+  padding: var(--space-7) var(--space-4);
+  color: var(--color-text-muted);
+}
+
+@media (min-width: 768px) {
+  .page { padding: var(--space-6) var(--space-5) var(--space-8); }
+}

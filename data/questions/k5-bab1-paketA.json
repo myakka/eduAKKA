@@ -1,0 +1,246 @@
+{
+  "assessmentId": "k5-bab1",
+  "paket": "A",
+  "soal": [
+    {
+      "id": 1,
+      "jenis": "pg",
+      "pertanyaan": "Jika cuaca hari ini cerah, maka yang akan dilakukan oleh siswa adalah....",
+      "opsi": [
+        "tidak akan pergi ke taman bermain",
+        "akan pergi ke taman bermain",
+        "pergi ke taman bermain bahkan jika cuaca tidak cerah",
+        "pergi ke taman bermain hanya pada malam hari"
+      ],
+      "kunci": 1,
+      "bobot": 1
+    },
+    {
+      "id": 2,
+      "jenis": "pg",
+      "pertanyaan": "teknologi yang memungkinkan komputer berpikir, belajar, dan mengambil keputusan disebut AI. AI adalah singkatan dari....",
+      "opsi": [
+        "Artificial Intelligence",
+        "Automatic Internet",
+        "Advanced Information",
+        "Auto Install"
+      ],
+      "kunci": 0,
+      "bobot": 1
+    },
+    {
+      "id": 3,
+      "jenis": "pg",
+      "pertanyaan": "Setiap pagi, Rani membutuhkan waktu lama untuk menyiapkan perlengkapan sekolah. Agar lebih mudah, ia membuat daftar yang berisi buku, alat tulis, bekal, dan botol minum yang harus disiapkan setiap malam. Manfaat berpikir komputasional yang diterapkan Rani adalah ....",
+      "opsi": [
+        "Membuat pekerjaan menjadi lebih rumit.",
+        "Membantu menyelesaikan tugas dengan lebih teratur.",
+        "Menghafalkan semua pelajaran.",
+        "Mengurangi jumlah perlengkapan sekolah."
+      ],
+      "kunci": 1,
+      "bobot": 1
+    },
+    {
+      "id": 4,
+      "jenis": "pg",
+      "pertanyaan": "Alya ingin membuat permainan sederhana. Sebelum mulai, ia membagi pekerjaannya menjadi beberapa bagian, yaitu membuat tokoh, membuat latar, menambahkan suara, dan membuat aturan permainan. Pemecahan masalah di atas dilakukan dengan menerapkan metode....",
+      "opsi": [
+        "algoritma",
+        "abstraksi",
+        "dekomposisi",
+        "pengenalan pola"
+      ],
+      "kunci": 2,
+      "bobot": 1
+    },
+    {
+      "id": 5,
+      "jenis": "pg",
+      "pertanyaan": "Raka memperhatikan bahwa setiap hari Senin semua siswa memakai seragam merah putih, sedangkan setiap hari Jumat memakai seragam pramuka. Setelah beberapa minggu, ia mengetahui bahwa pola tersebut selalu berulang. Cara berpikir komputasional yang dilakukan Raka adalah ....",
+      "opsi": [
+        "algoritma",
+        "abstraksi",
+        "dekomposisi",
+        "pengenalan pola"
+      ],
+      "kunci": 3,
+      "bobot": 1
+    },
+    {
+      "id": 6,
+      "jenis": "pg_kompleks",
+      "pertanyaan": "Manakah di bawah ini yang merupakan contoh penerapan metode dekomposisi dalam kehidupan sehari-hari? (Pilih dua jawaban)",
+      "opsi": [
+        "Membagi tugas membersihkan kelas menjadi piket menyapu, mengepel, dan menghapus papan tulis",
+        "Menghafal seluruh isi buku teks pelajaran tanpa memahami isinya",
+        "Membagi proyek pembuatan mading kelompok menjadi bagian mencari artikel, menggambar, dan merangkai",
+        "Berjalan santai tanpa tujuan yang jelas"
+      ],
+      "kunci": [0, 2],
+      "bobot": 2
+    },
+    {
+      "id": 7,
+      "jenis": "pg_kompleks",
+      "pertanyaan": "Pilih pernyataan yang benar mengenai metode dekomposisi! (Pilih dua jawaban)",
+      "opsi": [
+        "Setiap masalah yang telah diurai, dipecahkan secara terpisah",
+        "Penyelesaian setiap masalah dilakukan secara bersamaan dalam satu waktu tanpa dibagi",
+        "Memecah masalah besar menjadi bagian-bagian kecil agar lebih mudah dikelola",
+        "Nama hari dalam seminggu"
+      ],
+      "kunci": [0, 2],
+      "bobot": 2
+    },
+    {
+      "id": 8,
+      "jenis": "pg_kompleks",
+      "pertanyaan": "Manakah di bawah ini yang merupakan contoh algoritma dalam kehidupan sehari-hari? (Pilih dua jawaban)",
+      "opsi": [
+        "Langkah-langkah membuat mi instan secara berurutan",
+        "Warna kesukaan seseorang",
+        "Urutan langkah menggosok gigi yang benar",
+        "Nama hari dalam seminggu"
+      ],
+      "kunci": [0, 2],
+      "bobot": 2
+    },
+    {
+      "id": 9,
+      "jenis": "pg_kompleks",
+      "pertanyaan": "Apa saja karakteristik utama dari metode abstraksi? (Pilih dua jawaban)",
+      "opsi": [
+        "Berfokus hanya pada informasi atau detail yang penting saja",
+        "Menghilangkan semua informasi yang ada tanpa sisa",
+        "Mengabaikan rincian atau detail yang tidak relevan dengan masalah utama",
+        "Menghitung jumlah seluruh benda di dalam ruangan secara detail"
+      ],
+      "kunci": [0, 2],
+      "bobot": 2
+    },
+    {
+      "id": 10,
+      "jenis": "pg_kompleks",
+      "pertanyaan": "Manakah kegiatan di bawah ini yang menunjukkan penerapan pengenalan pola? (Pilih dua jawaban)",
+      "opsi": [
+        "Mengetahui bahwa setiap hari Senin wajib memakai seragam merah putih",
+        "Menuliskan resep masakan dari awal sampai akhir",
+        "Mengenali jenis suara alat musik dari bunyinya yang berulang",
+        "Membagi tugas kelompok menjadi beberapa bagian kecil"
+      ],
+      "kunci": [0, 2],
+      "bobot": 2
+    },
+    {
+      "id": 11,
+      "jenis": "benar_salah",
+      "pertanyaan": "Lani akan membuat jus mangga. Ia mencuci mangga, mengupas kulitnya, memotong buah, lalu memblendernya. Tentukan Benar atau Salah!",
+      "pernyataan": [
+        { "teks": "Lani menyusun langkah-langkah secara berurutan", "kunci": "benar" },
+        { "teks": "Kegiatan Lani merupakan contoh algoritma.", "kunci": "benar" },
+        { "teks": "Langkah-langkah membuat jus boleh dilakukan secara acak.", "kunci": "salah" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 12,
+      "jenis": "benar_salah",
+      "pertanyaan": "Doni ingin membersihkan kelas. Ia membagi tugas kepada teman-temannya, seperti menyapu, mengepel, dan menghapus papan tulis. Tentukan Benar atau Salah!",
+      "pernyataan": [
+        { "teks": "Doni menerapkan dekomposisi.", "kunci": "benar" },
+        { "teks": "Membagi tugas membuat pekerjaan lebih mudah.", "kunci": "benar" },
+        { "teks": "Semua siswa harus mengerjakan tugas yang sama.", "kunci": "salah" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 13,
+      "jenis": "benar_salah",
+      "pertanyaan": "Kelas 5 akan mengadakan pentas seni. Ketua kelas membagi tugas menjadi kelompok dekorasi, konsumsi, acara, dan dokumentasi. Tentukan Benar atau Salah!",
+      "pernyataan": [
+        { "teks": "Dekomposisi membantu membagi tugas sesuai kebutuhan.", "kunci": "benar" },
+        { "teks": "Dekomposisi digunakan untuk mencari pola yang berulang", "kunci": "salah" },
+        { "teks": "Dengan dekomposisi, masalah yang besar menjadi lebih mudah dikelola.", "kunci": "benar" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 14,
+      "jenis": "benar_salah",
+      "pertanyaan": "Tentukan Benar atau Salah untuk setiap pernyataan berikut tentang koding dan kecerdasan artifisial:",
+      "pernyataan": [
+        { "teks": "Algoritma flowchart di atas termasuk ke dalam kondisional if-then-else", "kunci": "benar" },
+        { "teks": "Algoritma di atas termasuk Pseudocode", "kunci": "benar" },
+        { "teks": "Bagian apakah kode kartu kuncinya benar menggunakan simbol proses.", "kunci": "salah" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 15,
+      "jenis": "benar_salah",
+      "pertanyaan": "Tentukan Benar atau Salah untuk setiap pernyataan berikut tentang koding dan kecerdasan artifisial:",
+      "pernyataan": [
+        { "teks": "Algoritma adalah urutan langkah untuk menyelesaikan masalah.", "kunci": "benar" },
+        { "teks": "Komputer dapat berpikir sendiri tanpa program apa pun.", "kunci": "salah" },
+        { "teks": "Kecerdasan artifisial dibuat oleh manusia untuk membantu pekerjaan.", "kunci": "benar" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 16,
+      "jenis": "menjodohkan",
+      "pertanyaan": "Jodohkan istilah berikut dengan penjelasannya yang tepat.",
+      "pasangan": [
+        { "kiri": "Algoritma", "kanan": "Menyusun langkah-langkah penyelesaian masalah" },
+        { "kiri": "Dekomposisi", "kanan": "Memecah masalah menjadi bagian-bagian kecil" },
+        { "kiri": "Abstraksi", "kanan": "Memilih informasi yang penting" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 17,
+      "jenis": "menjodohkan",
+      "pertanyaan": "Pasangkan cerita berikut dengan cara berpikir komputasional yang tepat.",
+      "pasangan": [
+        { "kiri": "Rani membagi pekerjaan membuat taman menjadi beberapa tugas.", "kanan": "Dekomposisi" },
+        { "kiri": "Beni melihat setiap Jumat siswa memakai seragam pramuka.", "kanan": "Pengenalan pola" },
+        { "kiri": "Dika menuliskan langkah membuat jus mangga.", "kanan": "Abstraksi" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 18,
+      "jenis": "menjodohkan",
+      "pertanyaan": "Pasangkan kegiatan dengan konsep berpikir komputasional.",
+      "pasangan": [
+        { "kiri": "Melatih mengamati dengan teliti", "kanan": "Manfaat berpikir komputasional" },
+        { "kiri": "Mengamati benda-benda untuk menemukan perbedaan dan persamaan", "kanan": "Manfaat metode pengenalan pola" },
+        { "kiri": "Memecahkan masalah dalam langkah-langkah yang teratur", "kanan": "Manfaat algoritma" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 19,
+      "jenis": "menjodohkan",
+      "pertanyaan": "Jodohkan istilah berikut dengan penjelasannya yang tepat.",
+      "pasangan": [
+        { "kiri": "Membagi tugas membuat mading kelas", "kanan": "Dekomposisi" },
+        { "kiri": "Memilih hanya jalan utama saat membuat peta sekolah", "kanan": "Abstraksi" },
+        { "kiri": "Menuliskan langkah-langkah menyalakan komputer", "kanan": "Algoritma" }
+      ],
+      "bobot": 3
+    },
+    {
+      "id": 20,
+      "jenis": "menjodohkan",
+      "pertanyaan": "Pasangkan konsep berpikir komputasional dengan manfaatnya.",
+      "pasangan": [
+        { "kiri": "Dekomposisi", "kanan": "Memecah masalah besar menjadi lebih mudah dikerjakan" },
+        { "kiri": "Abstraksi", "kanan": "Memusatkan perhatian pada informasi yang penting" },
+        { "kiri": "Algoritma", "kanan": "Menyusun langkah-langkah penyelesaian masalah" }
+      ],
+      "bobot": 3
+    }
+  ]
+}

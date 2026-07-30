@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<title>AKKA - Asesmen Koding dan Kecerdasan Artifisial</title>
+<meta name="description" content="AKKA - Platform Asesmen Digital Koding dan Kecerdasan Artifisial" />
+<link rel="icon" type="image/png" href="assets/logo/logo-akka.png" />
+<link rel="stylesheet" href="css/variables.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/splash.css" />
+</head>
+<body class="splash-body">
+
+  <main class="splash-screen" id="splashScreen">
+    <div class="splash-frame"></div>
+    <div class="splash-bg">
+      <span class="particle p1"></span>
+      <span class="particle p2"></span>
+      <span class="particle p3"></span>
+      <span class="particle p4"></span>
+      <span class="particle p5"></span>
+      <span class="digital-line l1"></span>
+      <span class="digital-line l2"></span>
+    </div>
+
+    <div class="splash-logo-wrap">
+      <img src="assets/logo/logo-akka.png" alt="Logo AKKA" class="splash-logo" />
+      <p class="splash-tagline">think &bull; solve &bull; code</p>
+    </div>
+
+    <svg class="splash-robot" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="50" cy="10" r="3" fill="#00D4FF"/>
+      <line x1="50" y1="13" x2="50" y2="22" stroke="#00D4FF" stroke-width="2"/>
+      <rect x="26" y="22" width="48" height="34" rx="14" fill="#101F35" stroke="#00D4FF" stroke-width="2"/>
+      <path d="M35 38 Q42 30 49 38" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round"/>
+      <path d="M53 38 Q60 30 67 38" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round"/>
+      <rect x="20" y="34" width="6" height="12" rx="3" fill="#123057" stroke="#00D4FF" stroke-width="1.5"/>
+      <rect x="74" y="34" width="6" height="12" rx="3" fill="#123057" stroke="#00D4FF" stroke-width="1.5"/>
+      <rect x="34" y="58" width="32" height="26" rx="10" fill="#101F35" stroke="#00D4FF" stroke-width="2"/>
+      <circle cx="50" cy="70" r="5" fill="none" stroke="#00D4FF" stroke-width="2"/>
+      <circle cx="50" cy="70" r="1.6" fill="#00D4FF"/>
+      <line x1="24" y1="64" x2="16" y2="72" stroke="#22D3EE" stroke-width="3" stroke-linecap="round"/>
+      <line x1="76" y1="64" x2="84" y2="72" stroke="#22D3EE" stroke-width="3" stroke-linecap="round"/>
+      <rect x="38" y="86" width="10" height="10" rx="3" fill="#123057" stroke="#00D4FF" stroke-width="1.5"/>
+      <rect x="52" y="86" width="10" height="10" rx="3" fill="#123057" stroke="#00D4FF" stroke-width="1.5"/>
+    </svg>
+
+    <div class="splash-loading">
+      <div class="splash-loading__label">Loading...</div>
+      <div class="splash-loading__track">
+        <div class="splash-loading__fill"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/app.js"></script>
+  <script>
+    // Splash screen otomatis menuju halaman login setelah 2.5 detik (BAB 3.4)
+    AKKA.splash.run({ redirectTo: 'login.html', duration: 2500 });
+  </script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+/* ==========================================================================
+   AKKA - Design Tokens
+   Tema: Modern Futuristic Sci-Fi Game (AI Lab / Robot / Neon / Cyber)
+   Nama variabel dipertahankan agar seluruh CSS & JS lama tetap kompatibel.
+   ========================================================================== */
+
+:root {
+  /* --- Warna Utama (biru gelap ruang AI) --- */
+  --color-blue-900: #050B14;
+  --color-blue-700: #0B1728;
+  --color-blue-600: #123057;
+  --color-blue-500: #1E63FF;
+
+  /* --- Cyan (aksen neon utama) --- */
+  --color-cyan-500: #00D4FF;
+  --color-cyan-400: #22D3EE;
+  --color-cyan-300: #7CF5FF;
+
+  /* --- Ungu (pendukung / hologram) --- */
+  --color-purple-600: #7C3AED;
+  --color-purple-500: #9D6BFF;
+  --color-purple-400: #C9B6FF;
+  --color-purple-200: #E7DBFF;
+
+  /* --- Netral (latar gelap + teks terang) --- */
+  --color-white: #FFFFFF;
+  --color-bg: #08111F;
+  --color-bg-soft: #101F35;
+  --color-text-dark: #E7F1FF;
+  --color-text-muted: #8CA3C2;
+  --color-border: rgba(0, 212, 255, 0.22);
+
+  /* --- Status --- */
+  --color-success: #23F58A;
+  --color-danger: #FF3B5C;
+  --color-warning: #FFB020;
+
+  /* --- Gradasi Identitas AKKA --- */
+  --gradient-brand: linear-gradient(135deg, #1E63FF 0%, #00D4FF 55%, #7C3AED 100%);
+  --gradient-brand-soft: linear-gradient(135deg, rgba(30,99,255,0.14) 0%, rgba(0,212,255,0.14) 55%, rgba(124,58,237,0.14) 100%);
+  --gradient-dark: linear-gradient(160deg, #050B14 0%, #0B1728 55%, #0E1C3C 100%);
+
+  /* --- Tipografi --- */
+  --font-display: 'Orbitron', 'Rajdhani', sans-serif;
+  --font-body: 'Rajdhani', 'Inter', sans-serif;
+
+  --fs-xs: 0.78rem;
+  --fs-sm: 0.9rem;
+  --fs-base: 1.05rem;
+  --fs-md: 1.2rem;
+  --fs-lg: 1.45rem;
+  --fs-xl: 1.85rem;
+  --fs-2xl: 2.35rem;
+
+  /* --- Spacing --- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  /* --- Radius --- */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-full: 999px;
+
+  /* --- Shadow / Glow --- */
+  --shadow-soft: 0 6px 20px rgba(0, 0, 0, 0.35);
+  --shadow-card: 0 14px 36px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(0, 212, 255, 0.06) inset;
+  --shadow-glow-cyan: 0 0 24px rgba(0, 212, 255, 0.45), 0 0 48px rgba(0, 212, 255, 0.15);
+
+  /* --- Transisi --- */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --dur-fast: 150ms;
+  --dur-normal: 280ms;
+  --dur-slow: 500ms;
+
+  /* --- Layout --- */
+  --max-width: 1120px;
+  --header-height: 75px;
+}

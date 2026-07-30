@@ -1,0 +1,189 @@
+/* ==========================================================================
+   AKKA - Komponen Reusable
+   Card, Button, Form Control, Badge, Modal — tema neon sci-fi glassmorphism
+   ========================================================================== */
+
+/* ------------------------- Card ------------------------- */
+
+.card {
+  background: linear-gradient(180deg, rgba(16, 31, 53, 0.9) 0%, rgba(8, 17, 31, 0.9) 100%);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-6);
+  border: 1px solid var(--color-border);
+  position: relative;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-lg);
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(0,212,255,0.35), transparent 40%, transparent 60%, rgba(124,58,237,0.35));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* Sentuhan glassmorphism ringan untuk elemen tertentu */
+.card--glass {
+  background: rgba(16, 31, 53, 0.55);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(0, 212, 255, 0.28);
+}
+
+/* ------------------------- Button ------------------------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  letter-spacing: 0.4px;
+  padding: 12px 22px;
+  border-radius: var(--radius-md);
+  border: none;
+  transition: transform var(--dur-fast) var(--ease-standard), box-shadow var(--dur-fast) var(--ease-standard), opacity var(--dur-fast);
+}
+
+.btn:active { transform: scale(0.97); }
+
+.btn-primary {
+  background: var(--gradient-brand);
+  color: var(--color-white);
+  box-shadow: 0 4px 18px rgba(0, 212, 255, 0.25);
+}
+.btn-primary:hover { box-shadow: var(--shadow-glow-cyan); transform: translateY(-1px); }
+.btn-primary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.btn-outline {
+  background: rgba(0, 212, 255, 0.06);
+  color: var(--color-cyan-300);
+  border: 1.5px solid var(--color-border);
+}
+.btn-outline:hover { border-color: var(--color-cyan-400); box-shadow: 0 0 14px rgba(0,212,255,0.2); }
+
+.btn-ghost {
+  background: transparent;
+  color: var(--color-cyan-300);
+}
+.btn-ghost:hover { background: rgba(0, 212, 255, 0.08); }
+
+.btn-danger {
+  background: linear-gradient(135deg, #FF3B5C, #FF7A5C);
+  color: var(--color-white);
+  box-shadow: 0 4px 16px rgba(255, 59, 92, 0.3);
+}
+.btn-danger:hover { box-shadow: 0 0 22px rgba(255, 59, 92, 0.45); }
+
+.btn-block { width: 100%; }
+.btn-sm { padding: 8px 14px; font-size: var(--fs-xs); }
+
+/* ------------------------- Form ------------------------- */
+
+.form-group { margin-bottom: var(--space-4); }
+
+.form-group label {
+  display: block;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: var(--color-cyan-300);
+  margin-bottom: var(--space-2);
+  text-transform: uppercase;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--color-border);
+  font-size: var(--fs-base);
+  font-family: var(--font-body);
+  font-weight: 600;
+  background: rgba(5, 11, 20, 0.65);
+  color: var(--color-text-dark);
+  transition: border-color var(--dur-fast), box-shadow var(--dur-fast);
+}
+
+.form-control::placeholder { color: var(--color-text-muted); font-weight: 500; }
+
+.form-control:focus {
+  border-color: var(--color-cyan-400);
+  box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.18), 0 0 16px rgba(0, 212, 255, 0.25);
+  outline: none;
+}
+
+.form-control.is-invalid { border-color: var(--color-danger); }
+
+.form-error {
+  display: block;
+  min-height: 18px;
+  font-size: var(--fs-xs);
+  color: var(--color-danger);
+  margin-top: 4px;
+}
+
+/* ------------------------- Badge ------------------------- */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+}
+
+.badge--active { background: rgba(35, 245, 138, 0.14); color: var(--color-success); border: 1px solid rgba(35, 245, 138, 0.35); }
+.badge--locked { background: rgba(140, 163, 194, 0.1); color: var(--color-text-muted); border: 1px solid rgba(140, 163, 194, 0.25); }
+
+/* ------------------------- Modal ------------------------- */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(2, 6, 12, 0.75);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: var(--space-4);
+}
+
+.modal-box {
+  background: linear-gradient(180deg, rgba(16, 31, 53, 0.98) 0%, rgba(8, 17, 31, 0.98) 100%);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  max-width: 420px;
+  width: 100%;
+  box-shadow: var(--shadow-card), var(--shadow-glow-cyan);
+  animation: modal-in var(--dur-normal) var(--ease-standard);
+}
+
+@keyframes modal-in {
+  from { opacity: 0; transform: translateY(12px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.modal-actions {
+  display: flex;
+  gap: var(--space-3);
+  margin-top: var(--space-5);
+}
+
+.modal-actions .btn { flex: 1; }

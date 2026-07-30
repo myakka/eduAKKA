@@ -1,0 +1,81 @@
+/* ==========================================================================
+   AKKA - Halaman Login
+   Tema: panel AI Lab sederhana, robot maskot, neon accent
+   ========================================================================== */
+
+body {
+  background:
+    radial-gradient(circle at 20% 10%, rgba(30, 99, 255, 0.18), transparent 45%),
+    radial-gradient(circle at 85% 90%, rgba(124, 58, 237, 0.16), transparent 45%),
+    var(--color-bg);
+}
+
+/* login.html tidak punya .app-header (beda dari halaman lain), jadi
+   .page--center bawaan (yang mengurangi --header-height) membuat kotak
+   login "menyusut" ke atas dan menyisakan ruang kosong di bawah.
+   Di sini kita pakai tinggi penuh viewport (dikurangi footer saja)
+   supaya kartu login benar-benar center secara vertikal di layar penuh. */
+.page--center {
+  min-height: calc(100vh - 90px);
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  animation: card-in var(--dur-slow) var(--ease-standard) both;
+}
+
+@keyframes card-in {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.login-card__brand {
+  text-align: center;
+  margin-bottom: var(--space-5);
+}
+
+.login-card__logo {
+  width: min(220px, 60%);
+  height: auto;
+  margin: 0 auto var(--space-3);
+  filter: drop-shadow(0 0 20px rgba(0, 212, 255, 0.4));
+}
+
+.login-card__robot {
+  width: 64px;
+  margin: 0 auto var(--space-3);
+  filter: drop-shadow(0 0 14px rgba(0, 212, 255, 0.4));
+  animation: robot-float 3.2s ease-in-out infinite;
+}
+
+@keyframes robot-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.login-card__title {
+  font-size: var(--fs-2xl);
+  font-family: var(--font-display);
+  background: var(--gradient-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 1px;
+}
+
+.login-card__subtitle {
+  font-size: var(--fs-sm);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-2);
+}
+
+.login-card__tagline {
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-cyan-400);
+}
+
+.login-card__tagline .dot { color: var(--color-purple-400); }

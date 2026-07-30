@@ -1,0 +1,62 @@
+[
+  {
+    "id": "k5-bab1",
+    "kelas": "5",
+    "bab": 1,
+    "nama": "Misi 1",
+    "status": "aktif",
+    "durasiMenit": 45,
+    "jumlahSoal": 6,
+    "jenisSoal": ["pg", "pg_kompleks", "benar_salah", "menjodohkan", "isian_singkat", "uraian"]
+  },
+  {
+    "id": "k5-bab2",
+    "kelas": "5",
+    "bab": 2,
+    "nama": "Misi 2",
+    "status": "belum_aktif",
+    "durasiMenit": 60,
+    "jumlahSoal": 6,
+    "jenisSoal": ["pg", "pg_kompleks", "benar_salah", "menjodohkan", "isian_singkat", "uraian"]
+  },
+  {
+    "id": "k5-bab3",
+    "kelas": "5",
+    "bab": 3,
+    "nama": "Misi 3",
+    "status": "belum_aktif",
+    "durasiMenit": 45,
+    "jumlahSoal": 6,
+    "jenisSoal": ["pg", "pg_kompleks", "benar_salah", "menjodohkan", "isian_singkat", "uraian"]
+  },
+  {
+    "id": "k6-bab1",
+    "kelas": "6",
+    "bab": 1,
+    "nama": "Misi 1 KKA",
+    "status": "aktif",
+    "durasiMenit": 45,
+    "jumlahSoal": 6,
+    "jenisSoal": ["pg", "pg_kompleks", "benar_salah", "menjodohkan", "isian_singkat", "uraian"]
+  },
+  {
+    "id": "k6-bab1",
+    "kelas": "6",
+    "bab": 1,
+    "nama": "Misi 2 KKA",
+    "status": "belum_aktif",
+    "durasiMenit": 60,
+    "jumlahSoal": 6,
+    "jenisSoal": ["pg", "pg_kompleks", "benar_salah", "menjodohkan", "isian_singkat", "uraian"]
+  },
+  {
+    "id": "k6-bab1",
+    "kelas": "6",
+    "bab": 1,
+    "nama": "Misi 3 KKA",
+    "status": "belum_aktif",
+    "durasiMenit": 60,
+    "jumlahSoal": 6,
+    "jenisSoal": ["pg", "pg_kompleks", "benar_salah", "menjodohkan", "isian_singkat", "uraian"]
+  }
+]

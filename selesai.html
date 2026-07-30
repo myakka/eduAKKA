@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<title>Selesai - AKKA</title>
+<link rel="icon" type="image/png" href="assets/logo/logo-akka.png" />
+<link rel="stylesheet" href="css/variables.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/components.css" />
+<link rel="stylesheet" href="css/selesai.css" />
+</head>
+<body>
+<header class="app-header">
+  <div class="app-header__inner">
+    <img src="assets/logo/logo-font-akka.png" alt="Logo AKKA" class="app-header__logo" />
+  </div>
+</header>
+
+<main class="page page--center">
+  <section class="done-card card">
+    <div class="done-card__icon" id="doneIcon">✅</div>
+    <h1 class="done-card__title" id="doneTitle">Jawaban Berhasil Dikirim</h1>
+    <p class="done-card__message" id="doneMessage">Terima kasih telah mengikuti asesmen.</p>
+
+    <div class="done-card__summary">
+      <div class="summary-row">
+        <span>Nama</span><span id="doneNama">-</span>
+      </div>
+      <div class="summary-row">
+        <span>Asesmen</span><span id="doneAsesmen">-</span>
+      </div>
+      <div class="summary-row">
+        <span>Waktu Kirim</span><span id="doneWaktu">-</span>
+      </div>
+    </div>
+
+    <button class="btn btn-primary btn-block" id="btnKembaliDashboard">Kembali ke Daftar Asesmen</button>
+  </section>
+</main>
+
+<footer class="app-footer">
+  <p>© <span id="tahunFooter"></span> AKKA - Asesmen Koding dan Kecerdasan Artifisial</p>
+</footer>
+
+<script src="js/app.js"></script>
+<script src="js/selesai.js"></script>
+</body>
+</html>
