@@ -5,12 +5,12 @@
     {
       "id": 1,
       "jenis": "pg",
-      "pertanyaan": "berpikir komputasional adalah....",
+      "pertanyaan": "Berpikir komputasional adalah....",
       "opsi": [
-        "membersihkan masalah dan solusi",
-        "menyelesaikan masalah dengan memberikan solusi",
-        "mencari masalah untuk informasi",
-        "membuat masalah dan informasi"
+        "Membersihkan masalah dan solusi",
+        "Menyelesaikan masalah dengan memberikan solusi",
+        "Mencari masalah untuk informasi",
+        "Membuat masalah dan informasi"
       ],
       "kunci": 1,
       "bobot": 1
@@ -147,7 +147,7 @@
     {
       "id": 12,
       "jenis": "benar_salah",
-      "pertanyaan": "Tentukan pengelompokkan yang dipilih ketika membeli sayuran di tukang sayur. Tentukan Benar atau Salah!",
+      "pertanyaan": "Tentukan Benar atau Salah untuk pernyataan berikut mengenai hal-hal yang dapat dipertimbangkan ketika membeli sayuran di tukang sayur!",
       "pernyataan": [
         { "teks": "Rasa sayuran", "kunci": "salah" },
         { "teks": "Harga Sayuran", "kunci": "benar" },
