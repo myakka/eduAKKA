@@ -107,6 +107,7 @@
     // Jangan timpa attempt yang sudah berjalan untuk asesmen yang sama (BAB 3.13, 4.16)
     const existing = AKKA.storage.getAttempt();
     if (existing && existing.assessmentId === attempt.assessmentId &&
+        existing.paket === attempt.paket &&
         existing.nama === attempt.nama && existing.kelas === attempt.kelas &&
         !existing.submitted && existing.endAt > now) {
       window.location.href = 'soal.html';
