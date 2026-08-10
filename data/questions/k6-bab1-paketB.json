@@ -84,14 +84,15 @@
     {
       "id": 7,
       "jenis": "pg_kompleks",
-      "pertanyaan": "Pilih pernyataan yang benar mengenai metode dekomposisi! (Pilih dua jawaban)",
+      "image": "assets/logo/soal7.png",
+      "pertanyaan": "Benda yang tidak sesuai untuk pola tersebut adalah .... (Pilih lebih dari satu jawaban)",
       "opsi": [
-        "Setiap masalah yang telah diurai, dipecahkan secara terpisah",
-        "Penyelesaian setiap masalah dilakukan secara bersamaan dalam satu waktu tanpa dibagi",
-        "Memecah masalah besar menjadi bagian-bagian kecil agar lebih mudah dikelola",
-        "Nama hari dalam seminggu"
+        "Buku",
+        "Jam",
+        "Handuk",
+        "Papan tulis"
       ],
-      "kunci": [0, 2],
+      "kunci": [0, 3],
       "bobot": 2
     },
     {
