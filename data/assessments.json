@@ -36,8 +36,8 @@
     "nama": "Misi 1 KKA",
     "status": "aktif",
     "durasiMenit": 25,
-    "jumlahSoal": 23,
-    "jenisSoal": ["pg", "pg_kompleks", "benar_salah", "menjodohkan", "isian_singkat", "uraian"]
+    "jumlahSoal": 21,
+    "jenisSoal": ["pg", "pg_kompleks", "benar_salah", "uraian"]
   },
   {
     "id": "k6-bab1",
