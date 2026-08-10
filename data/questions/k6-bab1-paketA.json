@@ -57,7 +57,7 @@
     {
       "id": 5,
       "jenis": "pg",
-      "pertanyaan": "",
+      "pertanyaan": "Raka memperhatikan bahwa setiap hari Senin semua siswa memakai seragam merah putih, sedangkan setiap hari Jumat memakai seragam pramuka. Setelah beberapa minggu, ia mengetahui bahwa pola tersebut selalu berulang. Cara berpikir komputasional yang dilakukan Raka adalah ....",
       "opsi": [
         "algoritma",
         "abstraksi",
