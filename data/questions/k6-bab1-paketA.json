@@ -5,12 +5,12 @@
     {
       "id": 1,
       "jenis": "pg",
-      "pertanyaan": "Jika hari ini turun hujan, maka yang akan dilakukan oleh anak-anak di rumah adalah....",
+      "pertanyaan": "berpikir komputasional adalah....",
       "opsi": [
-        "bermain bola di lapangan terbuka",
-        "bermain permainan di dalam ruangan",
-        "bermain di luar tanpa menggunakan payung",
-        "berenang di kolam renang umum"
+        "membersihkan masalah dan solusi",
+        "menyelesaikan masalah dengan memberikan solusi",
+        "mencari masalah untuk informasi",
+        "membuat masalah dan informasi"
       ],
       "kunci": 1,
       "bobot": 1
@@ -57,7 +57,7 @@
     {
       "id": 5,
       "jenis": "pg",
-      "pertanyaan": "Maya mengamati bahwa setiap hitungan mundur sebelum lomba lari selalu dimulai dari angka tiga, dua, satu, lalu ya. Cara berpikir komputasional yang dilakukan Maya adalah .... ",
+      "pertanyaan": "",
       "opsi": [
         "algoritma",
         "abstraksi",
@@ -70,14 +70,15 @@
     {
       "id": 6,
       "jenis": "pg_kompleks",
-      "pertanyaan": "Manakah di bawah ini yang merupakan contoh penerapan metode dekomposisi dalam kehidupan sehari-hari? (Pilih lebih dari satu jawaban)",
+      "image": "../assets/logo/22.png",
+      "pertanyaan": "Benda yang tidak sesuai untuk pola tersebut adalah .... (Pilih lebih dari satu jawaban)",
       "opsi": [
-        "Membagi tugas membersihkan rumah menjadi menyapu, mengepel, dan mencuci piring",
-        "Membuat urutan langkah-langkah mencuci tangan yang benar",
-        "Memecah proyek membuat majalah dinding menjadi bagian penulisan, ilustrasi, dan editor",
-        "Menghafal warna kesukaan seluruh teman sekelas"
+        "Bola",
+        "jam",
+        "Handuk",
+        "papan tulis"
       ],
-      "kunci": [0, 2],
+      "kunci": [0, 1],
       "bobot": 2
     },
     {
@@ -146,11 +147,11 @@
     {
       "id": 12,
       "jenis": "benar_salah",
-      "pertanyaan": "Budi mendapat tugas kelompok membuat kerajinan tangan. Ia membagi tugas memotong bahan, mengelem, dan menghias kepada anggota kelompoknya. Tentukan Benar atau Salah!",
+      "pertanyaan": "Tentukan pengelompokkan yang dipilih ketika membeli sayuran di tukang sayur. Tentukan Benar atau Salah!",
       "pernyataan": [
-        { "teks": "Budi menerapkan metode dekomposisi dalam membagi tugas.", "kunci": "benar" },
-        { "teks": "Membagi tugas kelompok membuat pekerjaan menjadi lebih cepat selesai.", "kunci": "benar" },
-        { "teks": "Semua anggota kelompok harus mengerjakan satu bagian tugas yang persis sama.", "kunci": "salah" }
+        { "teks": "Rasa sayuran", "kunci": "salah" },
+        { "teks": "Harga Sayuran", "kunci": "benar" },
+        { "teks": "Ketersediaan sayuran.", "kunci": "benar" }
       ],
       "bobot": 3
     },
@@ -241,6 +242,25 @@
         { "kiri": "Pengenalan pola", "kanan": "Kemampuan melihat tren atau kesamaan data" }
       ],
       "bobot": 3
-    }
+    },
+    {
+      "id": 21,
+      "jenis": "Uraian",
+      "pertanyaan": "Pasangkan istilah teknologi dan istilah umum dengan arti atau penjelasannya yang sesuai.",
+      "jawaban": "",
+    },
+    {
+      "id": 21,
+      "jenis": "Uraian",
+      "pertanyaan": "Pasangkan istilah teknologi dan istilah umum dengan arti atau penjelasannya yang sesuai.",
+      "jawaban": "",
+    },
+    {
+      "id": 21,
+      "jenis": "Uraian",
+      "pertanyaan": "Pasangkan istilah teknologi dan istilah umum dengan arti atau penjelasannya yang sesuai.",
+      "jawaban": "",
+    },
+    
   ]
 }
