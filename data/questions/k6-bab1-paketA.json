@@ -70,7 +70,7 @@
     {
       "id": 6,
       "jenis": "pg_kompleks",
-      "image": "../assets/logo/22.png",
+      "image": "assets/logo/22.png",
       "pertanyaan": "Benda yang tidak sesuai untuk pola tersebut adalah .... (Pilih lebih dari satu jawaban)",
       "opsi": [
         "Bola",
@@ -246,7 +246,7 @@
     {
        "id": 21,
        "jenis": "uraian",
-       "image": "../assets/logo/jus.png",
+       "image": "assets/logo/jus.png",
        "pertanyaan": "Selesaikan masalah tersebut menggunakan konsep algoritma untuk menuliskan langkah-langkaj membuat jus secara berurutan dan mudah diikuti",
        "jawaban": ""
     },
