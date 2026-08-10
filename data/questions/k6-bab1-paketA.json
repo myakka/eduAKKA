@@ -253,13 +253,15 @@
     {
       "id": 22,
       "jenis": "uraian",
-      "pertanyaan": "Pasangkan istilah teknologi dan istilah umum dengan arti atau penjelasannya yang sesuai.",
+      "image": "assets/logo/jadwal.png",
+      "pertanyaan": "Selesaikan masalah Rani tersebut menggunakan metode abstraksi. tuliskan informasi penting yang harus diperhatikan untuk membuat jadwal belajar! .",
       "jawaban": ""
     },
     {
       "id": 23,
       "jenis": "uraian",
-      "pertanyaan": "Pasangkan istilah teknologi dan istilah umum dengan arti atau penjelasannya yang sesuai.",
+      "image": "assets/logo/dekomposisi.png",
+      "pertanyaan": "Gunakan metode dekomposisi untuk membagi masalah “membersihkan kelas” menjadi beberapa pekerjaan kecil yang lebih mudah dilakukan. Tuliskan minimal 4 pekerjaan!",
       "jawaban": ""
     }
   ]
