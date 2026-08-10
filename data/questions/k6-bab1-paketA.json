@@ -244,10 +244,11 @@
       "bobot": 3
     },
     {
-      "id": 21,
-      "jenis": "Uraian",
-      "pertanyaan": "Pasangkan istilah teknologi dan istilah umum dengan arti atau penjelasannya yang sesuai.",
-      "jawaban": ""
+       "id": 21,
+       "jenis": "Uraian",
+       "image": "../assets/logo/22.png",
+       "pertanyaan": "...",
+       "jawaban": ""
     },
     {
       "id": 22,
