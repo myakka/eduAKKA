@@ -170,11 +170,12 @@
     {
       "id": 14,
       "jenis": "benar_salah",
-      "pertanyaan": "Tentukan Benar atau Salah untuk setiap pernyataan berikut tentang koding dan kecerdasan artifisial:",
+      "pertanyaan": "Tentukan Benar atau Salah untuk setiap pernyataan berikut tentang pengenalan pola!:",
+      "image": "assets/logo/soal14.png",
       "pernyataan": [
-        { "teks": "Algoritma flowchart di atas termasuk ke dalam kondisional if-then-else", "kunci": "benar" },
-        { "teks": "Algoritma di atas termasuk Pseudocode", "kunci": "benar" },
-        { "teks": "Bagian apakah kode kartu kuncinya benar menggunakan simbol proses.", "kunci": "salah" }
+        { "teks": "Pola pada gambar di atas berulang setiap tiga bentuk", "kunci": "benar" },
+        { "teks": "Bentuk setelah tanda tanya(?) adalah segitia", "kunci": "salah" },
+        { "teks": "Pola pada gambar di atas termasuk contoh pengenalan pola.", "kunci": "benar" }
       ],
       "bobot": 3
     },
@@ -207,14 +208,14 @@
       "pasangan": [
         { "kiri": "Rani membagi pekerjaan membuat taman menjadi beberapa tugas.", "kanan": "Dekomposisi" },
         { "kiri": "Beni melihat setiap Jumat siswa memakai seragam pramuka.", "kanan": "Pengenalan pola" },
-        { "kiri": "Dika menuliskan langkah membuat jus mangga.", "kanan": "Abstraksi" }
+        { "kiri": "Dika menuliskan langkah membuat jus mangga.", "kanan": "Algoritma" }
       ],
       "bobot": 3
     },
     {
       "id": 18,
       "jenis": "menjodohkan",
-      "pertanyaan": "Pasangkan kegiatan dengan konsep berpikir komputasional.",
+      "pertanyaan": "Pasangkan kegiatan berikut dengan konsep berpikir komputasional yang sesuai..",
       "pasangan": [
         { "kiri": "Melatih mengamati dengan teliti", "kanan": "Manfaat berpikir komputasional" },
         { "kiri": "Mengamati benda-benda untuk menemukan perbedaan dan persamaan", "kanan": "Manfaat metode pengenalan pola" },
@@ -248,7 +249,7 @@
        "id": 21,
        "jenis": "uraian",
        "image": "assets/logo/jus.png",
-       "pertanyaan": "Selesaikan masalah tersebut menggunakan konsep algoritma untuk menuliskan langkah-langkaj membuat jus secara berurutan dan mudah diikuti",
+       "pertanyaan": "Selesaikan masalah tersebut menggunakan konsep algoritma untuk menuliskan langkah-langkah membuat jus secara berurutan dan mudah diikuti",
        "jawaban": ""
     }
   ]
