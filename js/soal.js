@@ -121,6 +121,9 @@
     const jawabanSaved = attempt.jawaban[soal.id];
     let html = `<p class="soal-pertanyaan">${soal.pertanyaan || ''}</p>`;
 
+    if (soal.image) {
+        html += `<img src="${soal.image}" alt="Gambar soal ${soal.id}" class="soal-image" />`;
+    }
     switch (soal.jenis) {
       case 'pg':
         html += '<div class="option-list">' + (soal.opsi || []).map((opsi, i) => `
