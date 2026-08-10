@@ -247,20 +247,19 @@
       "id": 21,
       "jenis": "Uraian",
       "pertanyaan": "Pasangkan istilah teknologi dan istilah umum dengan arti atau penjelasannya yang sesuai.",
-      "jawaban": "",
+      "jawaban": ""
     },
     {
-      "id": 21,
+      "id": 22,
       "jenis": "Uraian",
       "pertanyaan": "Pasangkan istilah teknologi dan istilah umum dengan arti atau penjelasannya yang sesuai.",
-      "jawaban": "",
+      "jawaban": ""
     },
     {
-      "id": 21,
+      "id": 23,
       "jenis": "Uraian",
       "pertanyaan": "Pasangkan istilah teknologi dan istilah umum dengan arti atau penjelasannya yang sesuai.",
-      "jawaban": "",
-    },
-    
+      "jawaban": ""
+    }
   ]
 }
