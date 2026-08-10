@@ -245,20 +245,20 @@
     },
     {
        "id": 21,
-       "jenis": "Uraian",
+       "jenis": "uraian",
        "image": "../assets/logo/22.png",
        "pertanyaan": "...",
        "jawaban": ""
     },
     {
       "id": 22,
-      "jenis": "Uraian",
+      "jenis": "uraian",
       "pertanyaan": "Pasangkan istilah teknologi dan istilah umum dengan arti atau penjelasannya yang sesuai.",
       "jawaban": ""
     },
     {
       "id": 23,
-      "jenis": "Uraian",
+      "jenis": "uraian",
       "pertanyaan": "Pasangkan istilah teknologi dan istilah umum dengan arti atau penjelasannya yang sesuai.",
       "jawaban": ""
     }
