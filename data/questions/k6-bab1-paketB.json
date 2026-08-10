@@ -5,19 +5,6 @@
     {
       "id": 1,
       "jenis": "pg",
-      "pertanyaan": "Jika cuaca hari ini cerah, maka yang akan dilakukan oleh siswa adalah....",
-      "opsi": [
-        "tidak akan pergi ke taman bermain",
-        "akan pergi ke taman bermain",
-        "pergi ke taman bermain bahkan jika cuaca tidak cerah",
-        "pergi ke taman bermain hanya pada malam hari"
-      ],
-      "kunci": 1,
-      "bobot": 1
-    },
-    {
-      "id": 2,
-      "jenis": "pg",
       "pertanyaan": "teknologi yang memungkinkan komputer berpikir, belajar, dan mengambil keputusan disebut AI. AI adalah singkatan dari....",
       "opsi": [
         "Artificial Intelligence",
@@ -26,6 +13,20 @@
         "Auto Install"
       ],
       "kunci": 0,
+      "bobot": 1
+    },
+    {
+
+      "id": 2,
+      "jenis": "pg",
+      "pertanyaan": "Jika cuaca hari ini cerah, maka yang akan dilakukan oleh siswa adalah....",
+      "opsi": [
+        "tidak akan pergi ke taman bermain",
+        "akan pergi ke taman bermain",
+        "pergi ke taman bermain bahkan jika cuaca tidak cerah",
+        "pergi ke taman bermain hanya pada malam hari"
+      ],
+      "kunci": 1,
       "bobot": 1
     },
     {
@@ -241,6 +242,27 @@
         { "kiri": "Algoritma", "kanan": "Menyusun langkah-langkah penyelesaian masalah" }
       ],
       "bobot": 3
+    },
+    {
+       "id": 21,
+       "jenis": "uraian",
+       "image": "assets/logo/jus.png",
+       "pertanyaan": "Selesaikan masalah tersebut menggunakan konsep algoritma untuk menuliskan langkah-langkaj membuat jus secara berurutan dan mudah diikuti",
+       "jawaban": ""
+    },
+    {
+      "id": 22,
+      "jenis": "uraian",
+      "image": "assets/logo/dekomposisi.png",
+      "pertanyaan": "Gunakan metode dekomposisi untuk membagi masalah “membersihkan kelas” menjadi beberapa pekerjaan kecil yang lebih mudah dilakukan. Tuliskan minimal 4 pekerjaan!",
+      "jawaban": ""
+    },
+    {
+      "id": 23,
+      "jenis": "uraian",
+      "image": "assets/logo/jadwal.png",
+      "pertanyaan": "Selesaikan masalah Rani tersebut menggunakan metode abstraksi. tuliskan informasi penting yang harus diperhatikan untuk membuat jadwal belajar! .",
+      "jawaban": ""
     }
   ]
 }
