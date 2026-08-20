@@ -166,13 +166,13 @@
       "bobot": 3
     },
     {
-      "id": 14,
+     "id": 14,
       "jenis": "benar_salah",
-      "pertanyaan": "Tentukan Benar atau Salah untuk setiap pernyataan berikut mengenai elemen berpikir komputasional:",
+      "pertanyaan": "Tentukan Benar atau Salah untuk setiap pernyataan berikut tentang koding dan kecerdasan artifisial:",
       "pernyataan": [
-        { "teks": "Abstraksi berfokus pada informasi penting dan mengabaikan detail yang tidak diperlukan.", "kunci": "benar" },
-        { "teks": "Pengenalan pola digunakan untuk mencari kesamaan atau keteraturan dari suatu data atau kejadian.", "kunci": "benar" },
-        { "teks": "Dekomposisi adalah cara menyusun instruksi bercabang seperti struktur keputusan.", "kunci": "salah" }
+        { "teks": "Algoritma flowchart di atas termasuk ke dalam kondisional if-then-else", "kunci": "benar" },
+        { "teks": "Algoritma di atas termasuk Pseudocode", "kunci": "benar" },
+        { "teks": "Bagian apakah kode kartu kuncinya benar menggunakan simbol proses.", "kunci": "salah" }
       ],
       "bobot": 3
     },
