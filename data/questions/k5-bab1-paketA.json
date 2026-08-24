@@ -168,6 +168,7 @@
     {
       "id": 14,
       "jenis": "benar_salah",
+      "image": "assets/logo/soal14.png",
       "pertanyaan": "Tentukan Benar atau Salah untuk setiap pernyataan berikut tentang koding dan kecerdasan artifisial:",
       "pernyataan": [
         { "teks": "Algoritma flowchart di atas termasuk ke dalam kondisional if-then-else", "kunci": "benar" },
